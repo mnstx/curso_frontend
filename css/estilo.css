@@ -1,0 +1,50 @@
+.navegacion {
+    text-align: right;
+    background-color: darkgray;
+    display: block;
+    padding: 10px;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion a:hover {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+footer p {
+    font-size: 30px;
+    color: white;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+    color: navy;
+}
