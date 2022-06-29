@@ -30,13 +30,14 @@ main {
     padding: 4px;
     display: flex;
     justify-content: space-between;
+    z-index: 1000;
 }
 
 .menuredes {
     background-color: black;
     padding: 4px;
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
 }
 
 .menuredes ul {
@@ -49,6 +50,7 @@ main {
 .menuredes p {
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 30px;
+    padding-top: 25px;
 }
 
 .navegacion {
@@ -88,7 +90,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .sec_1 {
@@ -122,16 +124,6 @@ footer a {
     font-size: 40px;
 }
 
-.mainform {
-    display: flex;
-    justify-content: space-around;
-}
-
-.form {
-    display: block;
-    padding-top: 30%;
-}
-
 .productos {
     width: 100%;
     display: flex;
@@ -149,4 +141,57 @@ footer a {
 
 .producto:hover, .producto:active {
     background-color: lightblue;
+}
+
+.maincontacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.form {
+    padding-bottom: 10px;
+}
+
+.form p {
+    font-size: 40px;
+}
+
+.form label {
+    display: inline-block;
+    width: 100%;
+}
+
+.btnenviar {
+    display: flex;
+    align-items: flex-start;
+}
+
+.formmapa {
+    padding-bottom: 10px;
+}
+
+.imgform img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.conmapa p {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 40px;
+}
+
+.maintienda {
+    display: flex;
+    flex-direction: column;
+}
+
+.ofertas {
+    padding-bottom: 20px;
+}
+
+.producto {
+    font-size: 2rem;
 }
